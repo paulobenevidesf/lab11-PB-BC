@@ -12,9 +12,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.add(-7,4),-3)
         self.assertEqual(calculator.add(-7,-3),-10)
     def test_subtract(self):
-        self.assertEqual(calculator.sub(1,1),0)
-        self.assertEqual(calculator.sub(-1,-2),1)
-        self.assertEqual(calculator.sub(5,7),-2)
+        self.assertEqual(calculator.subtract(1,1),0)
+        self.assertEqual(calculator.subtract(-1,-2),1)
+        self.assertEqual(calculator.subtract(5,7),-2)
 
     def test_divide_by_zero(self):
         self.assertRaises(ZeroDivisionError,calculator.div,0,0)
