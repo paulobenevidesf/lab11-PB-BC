@@ -1,10 +1,3 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-
 # https://github.com/paulobenevidesf/lab11-PB-BC
 # Partner 1: Paulo Jose Benevides Filho
 # Partner 2: Benjamin Cao
@@ -23,7 +16,7 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):

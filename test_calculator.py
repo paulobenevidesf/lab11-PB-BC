@@ -26,7 +26,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.logarithm(2,8),3)
         self.assertEqual(calculator.logarithm(3,27),3)
 
-    def test_logarithm_invalid_base(self):
+    def test_log_invalid_base(self):
         self.assertRaises(ValueError, calculator.logarithm,1,10)
         self.assertRaises(ValueError, calculator.logarithm,0,12)
         self.assertRaises(ValueError, calculator.logarithm,-1,0)
